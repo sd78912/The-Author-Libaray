@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>All Products - Red store</title>
+    <link rel="stylesheet" href="style1.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;1,200&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+<section>
+  <div class="navbar">
+    <a href="index.html">Home</a>
+    <a href="#id1">New Collection</a>
+    <a href="#id2">Popular Authors</a>
+    <a href="#ha2">Special Offer</a>
+    <a href="#">Contact Us</a>
+    <a href="cart.html" class="right">
+      <img src="images/cart.png" alt="" width="30px" height="30px"
+            /></a>
+            <a href="login.html" class="right">Login</a>
+            <div class="search-col">
+              <div class="search">
+                  <input type="text" name="" class="search1" placeholder="Search">
+                  <a href="#" class="search-btn">
+                      <img src="https://img.icons8.com/material-outlined/24/000000/search--v1.png">
+                  </a>
+              </div>
+          </div>             
+  </div>
+  </section>
+    <!-- Cart Items Details -->
+    <section>
+    <div class="small-container cart-page">
+      <table>
+        <tr>
+          <th>Product</th>
+          <th>Quantity</th>
+          <th>Subtotal</th>
+        </tr>
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/product-5.png" alt="" />
+              <div>
+                <p>Killing Hemingway</p>
+                <small>Price: Rs 540</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="nunber" value="1" /></td>
+          <td>Rs 1080.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/product-6.jpg" alt="" />
+              <div>
+                <p>Storm's Rising: Book3</p>
+                <small>Price: Rs 400</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="nunber" value="1" /></td>
+          <td>Rs 400.00</td>
+        </tr>
+
+        <tr>
+          <td>
+            <div class="cart-info">
+              <img src="images/product-7.jpg" alt="" />
+              <div>
+                <p>The Dress and the Girl</p>
+                <small>Price: Rs 650.00</small>
+                <br />
+                <a href="">Remove</a>
+              </div>
+            </div>
+          </td>
+          <td><input type="nunber" value="1" /></td>
+          <td>Rs 650.00</td>
+        </tr>
+      </table>
+
+      <div class="total-price">
+        <table>
+          <tr>
+            <td>Subtotal</td>
+            <td>Rs 2130.00</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>Rs 50.00</td>
+          </tr>
+          <tr>
+            <td>Total</td>
+            <td>Rs 2180.00</td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    </section>
+    <!-- Footer -->
+
+      <section>
+        <div class="footer">
+          <div class="container">
+            <div class="row">
+              
+              <div class="footer-col-4">
+                <h3>Follow us</h3>
+                <ul>
+                  <li>Facebook</li>
+                  <li>Twitter</li>
+                  <li>Instagram</li>
+                  <li>YouTube</li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+            <p class="copyright">Copyright 2020 - Soumyoneel Dey</p>
+          </div>
+        </div>
+        </section>
+    
+    <!-- JS for Toggle menu -->
+    <script>
+      var MenuItems = document.getElementById("MenuItems");
+
+      MenuItems.style.maxHeight = "0px";
+
+      function menutoggle() {
+        if (MenuItems.style.maxHeight == "0px") {
+          MenuItems.style.maxHeight = "200px";
+        } else {
+          MenuItems.style.maxHeight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
