@@ -163,6 +163,42 @@ input[type=radio] {
   -webkit-appearance: radio !important;
   -o-appearance: radio !important;
   -ms-appearance: radio !important; }
+  
+
+.navbar2 {
+  overflow: hidden; 
+  background-color: rgba(44, 164, 180, 0.842); 
+  opacity: 0.7;  
+}
+
+.navbar2 a {
+  float: left;
+  display: block; 
+  color: black; 
+  text-align: center; 
+  padding: 14px 20px; 
+  text-decoration: none; 
+  height: 30px;
+  font-size:18px;
+}
+.navbar2 a.right {
+  float: right;
+   
+}
+a {
+  text-decoration: none;
+  color: #555;
+}
+a:hover {
+	text-decoration: none;
+  color: #0c20a5;
+  color: -webkit-linear-gradient(left, #21d4fd, #b721ff);
+  color: -o-linear-gradient(left, #21d4fd, #b721ff);
+  color: -moz-linear-gradient(left, #21d4fd, #b721ff);
+  color: linear-gradient(left, #21d4fd, #b721ff);
+} 
+
+
 
 img {
   max-width: 100%;
@@ -185,8 +221,7 @@ h2 {
   font-family: Poppins;
   font-size: 36px; }
 
-.main {
-  background: #f8f8f8;
+.main { 
   padding: 150px 0; }
 
 .clear {
@@ -199,6 +234,13 @@ body {
   background: #f8f8f8;
   font-weight: 400;
   font-family: Poppins; }
+
+.ac 
+{
+  background: radial-gradient(#fff, #44bdc5);
+  width: 100%;
+  
+}
 
 .container {
   width: 900px;
@@ -214,6 +256,14 @@ body {
   -webkit-border-radius: 20px;
   -o-border-radius: 20px;
   -ms-border-radius: 20px; }
+.container1
+  {
+  max-width: 1300px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+  
+  }
 
 .display-flex {
   justify-content: space-between;
