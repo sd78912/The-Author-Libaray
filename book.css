@@ -51,6 +51,7 @@ html {
 text-align: center;
 margin-left: -110px;
 font-size: medium;
+font-weight: bold;
 }
 
 #p2
@@ -169,7 +170,7 @@ p {
   padding: 8px 30px;
   border-radius: 5px;
   transition: background 0.5s;
-  right: -60px;
+  right: -80px;
 }
 
 .btn1:hover {
