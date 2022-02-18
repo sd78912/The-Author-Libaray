@@ -10,8 +10,9 @@ body {
 
 .navbar {
   overflow: hidden; 
-  background-color: rgba(86, 233, 233, 0.333); 
-  opacity: 0.5;  
+  background-color: rgba(44, 164, 180, 0.842); 
+  opacity: 0.8; 
+ 
 }
 
 .navbar a {
@@ -23,6 +24,7 @@ body {
   text-decoration: none; 
   height: 15px;
   font-size:18px;
+  
 }
 .navbar a.right {
   float: right;
@@ -43,7 +45,7 @@ a:hover {
   color: linear-gradient(left, #21d4fd, #b721ff);
 } 
 
-p {
+p  {
   color: #555;
 }
 .container {
@@ -76,7 +78,7 @@ p {
   line-height: 60px;
   margin: 25px 0;
 }
-.btn {
+/* .btn {
   display: inline-block;
   background: #ff523b;
   color: #fff;
@@ -87,9 +89,9 @@ p {
 }
 
 .btn:hover {
-  background-color: #563434; /* Green */
+  background-color: #563434; /* Green 
   color: #fff;
-}
+} */
 
 .header {
   background: radial-gradient(#fff, #ffd6d6);
@@ -314,6 +316,7 @@ small {
 .search-btn {
   color: rgba(0, 0, 0, 0.7);
   background: none;
+  margin-bottom: 15px;
 }
 
 .search1 {
